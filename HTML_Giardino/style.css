@@ -1,0 +1,48 @@
+body {
+	background: url(fiore.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+h2 {
+font: bold 114% Arial, sans-serif;
+color: #006699 }
+#titolo {
+height: 60px;
+font: bold 200% Arial, sans-serif;
+color: #FFFFFF;
+background-color: #009300 }
+#titolo2 {
+height: 60px;
+font: bold 150% Arial, sans-serif;
+color: #FFFFFF;
+background-color: #009300 }
+#navbar {
+border:1px solid red; position: absolute;
+width: 20%; left: 10px;
+top: 140px;
+background-color: #FFFFFF }
+#navbar li {
+font-size: 110% }
+#navbar a:link, #navbar a:visited {
+color: navy;
+text-decoration: none }
+#navbar a:hover {
+color: #0000FF }
+#contenuto {
+color: #000000;
+background-color: #FFFFFF;
+margin-right: 20%; margin-top: Opx; margin-left: 25%; margin-bottom: 0px }
+.notizia {
+font-size: 80% }
+#footer {
+height: 30px;
+font: bold 114% Arial,sans-serif;
+text-align: center;
+color: #FFFFFF;
+background-color: #009300 }
+#footer a:link, #footer a:visited {
+color: #FFFFFF;
+text-decoration: none }
+#footer a:hover {
+color: #FFFF00 }

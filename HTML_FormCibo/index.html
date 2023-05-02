@@ -1,0 +1,41 @@
+<html lang="it">
+	<head>
+		<title>Quali sono i tuoi gusti?</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div class="content">
+			<a href="../index.html">&#9166; Torna indietro</a>
+			<div class="titleInline">
+				<h1>Quali sono i tuoi gusti in termini di cibo?</h1>
+				<img src="favicon.ico">
+			</div>
+			<form action="./end.html" method="get">
+				<label for="foodKind">Qual'&egrave; il tuo tipo di cibo preferito?</label><br>
+				<select id="foodKind" name="foodKind">
+  					<option value="primo">Primo</option>
+  					<option value="secondo">Secondo</option>
+  					<option value="snack">Snack</option>
+  					<option value="dolce">Dolce</option>
+				</select><br>
+				<label for="foodForever">Se potessi scegliere uno di questi cibi da mangiare per sempre, quale sceglieresti?</label><br>
+				<select id="foodForever" name="foodForever">
+  					<option value="pizza">Pizza</option>
+  					<option value="bistecca">Bistecca</option>
+  					<option value="hamburger">Hamburger</option>
+  					<option value="pesce">Pesce</option>
+  					<option value="torta">Torta</option>
+  					<option value="cioccolato">Cioccolato</option>
+				</select><br>
+				<label for="favFood">Qual'&egrave; il tuo cibo preferito?</label><br>
+				<input type="text" id="favFood" name="favFood"><br>
+				<label for="foodSweet">In genere preferisci dolce o salato?</label><br>
+				<select id="foodSweet" name="foodSweet">
+  					<option value="salato">Salato</option>
+  					<option value="dolce">Dolce</option>
+				</select><br>
+				<input type="submit" value="Invia!">
+			</form>
+		</div>
+	</body>
+</html>

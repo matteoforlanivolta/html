@@ -1,0 +1,59 @@
+* {
+	font-family: Arial;
+}
+
+.content {
+	border-radius: 10px;
+	margin: auto;
+	width: 50%;
+	background-color: white;
+	padding: 10px;
+}
+
+.contentNoBg {
+	border-radius: 10px;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	width: 50%;
+	padding-left: 0px;
+}
+
+.arancio {
+	background-color: #d62b00;
+}
+
+.rosa {
+	background-color: lightcoral;
+}
+
+.verde {
+	background-color: lightgreen;
+}
+
+a {
+	text-decoration: none;
+}
+
+table {
+	background-color: gray;
+	border-radius: 10px;
+}
+
+td, th {
+	background-color: white;
+	border-radius: 5px;
+
+}
+
+table, td, th {
+	padding: 5px;
+	border: 1px solid;
+	border-color: gray;
+	border-style:groove;
+}
+
+img {
+	height: 250px;
+	border-radius: 10px;
+}

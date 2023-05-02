@@ -1,0 +1,105 @@
+:root {
+	--stdshadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+
+* {
+	font-family: Arial;
+}
+
+h1 {
+	margin-right: 100px;
+}
+
+.content {
+	border-radius: 10px;
+	margin: auto;
+	width: 500px;
+	background-color: white;
+	padding: 10px;
+}
+
+.fill {
+	width: 100%;
+}
+
+.contentNoBg {
+	border-radius: 10px;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	width: 50%;
+	padding-left: 0px;
+}
+
+button {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border: none;
+	background-color: #f5faff;
+	color: black;
+	border-radius: 10px;
+	padding: 10px;
+	transition: all 1s, scale 0.1s;
+}
+
+button:hover {
+	box-shadow: var(--stdshadow);
+}
+
+button:active {
+	scale: 80%;
+}
+
+img {
+	height: 200px;
+	width: 150px;
+	border-radius: 10px;
+	object-fit: cover;
+	transition: all 1s, scale 0.1s;
+}
+
+img:hover {
+	box-shadow: var(--stdshadow);
+}
+
+img:active {
+	scale: 90%;
+}
+
+body {
+	background-color: #ebebeb;
+}
+
+a {
+	text-decoration: none;
+}
+
+table {
+	background-color: #ebebeb;
+	padding: 5px;
+	border-radius: 10px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	
+}
+
+td {
+	background-color: white;
+	border-radius: 5px;
+	margin: 10px;
+	transition: all 0.1s;
+}
+
+td:active {
+	background-color: #f5faff;
+}
+
+table, td {
+	padding: 5px;
+	border: none;
+}
+
+th {
+	padding: 2px;
+	border: none;
+}

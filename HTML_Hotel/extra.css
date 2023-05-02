@@ -1,0 +1,35 @@
+* {
+    border-radius: 15px;
+}
+
+.content {
+    text-align: left;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    background-color: darkgreen;
+    text-align: center;
+}
+
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: darkgreen;
+    text-align: justify;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: silver;
+    background-color: blue;
+    text-align: center;
+}
+
+div {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    color: lightblue;
+    background-color: black;
+    text-align: center;
+}

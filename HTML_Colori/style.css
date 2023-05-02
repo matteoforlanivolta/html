@@ -1,0 +1,23 @@
+* {
+	font-family: Arial;
+}
+
+.content {
+	border-radius: 10px;
+	margin: auto;
+	width: 50%;
+	background-color: white;
+	padding: 10px;
+}
+
+.rosso {
+	background-color: red;
+}
+
+.verde {
+	background-color: green;
+}
+
+.blu {
+	background-color: blue;
+}

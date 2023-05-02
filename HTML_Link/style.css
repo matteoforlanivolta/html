@@ -1,0 +1,25 @@
+* {
+	font-family: Arial;
+}
+
+.content {
+	border-radius: 10px;
+	margin: auto;
+	margin-bottom: 10px;
+	width: 50%;
+	background-color: white;
+	padding: 10px;
+}
+
+.contentNoBg {
+	border-radius: 10px;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	width: 50%;
+	padding-left: 0px;
+}
+
+body {
+	background-color: #ebebeb;
+}

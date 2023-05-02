@@ -1,0 +1,41 @@
+* {
+    font-family: 'Open Sans';
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    height: 200px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.imageTab {
+    display: inline-flex;
+}
+
+iframe {
+    border: none;
+    border-radius: 10px;
+}
+
+@media (prefers-color-scheme: dark) {
+    * {
+        background-color: #26282b;
+        color: white;
+    }
+}
+
+code { 
+    background: hsl(220, 80%, 90%); 
+    border-radius: 5px;
+}
+
+pre {
+    white-space: pre-wrap;
+    background: hsl(235, 100%, 98%);
+    font-family: 'Courier New', Courier, monospace;
+}
